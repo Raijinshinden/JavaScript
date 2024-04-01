@@ -32,3 +32,8 @@ let gpa = 2.1;
 console.log(`You are ${age} years old.`);
 console.log(`The price is $${price}.`);
 console.log(`Your gpa is: ${gpa}`);
+
+//If we need to display the datatype of a variable, we can use console.log(), and precede the variable with the type of keyword.
+console.log(typeof price);
+console.log(typeof age);
+console.log(typeof gpa);
