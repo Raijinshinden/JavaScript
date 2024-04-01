@@ -153,9 +153,12 @@ console.log(z, typeof z);
 
 //Const = a variable that can't be changed;
 
-let pi = 3.14159;
+const PI = 3.14159; //uppercasing const variable name is common with numbers and booleans, but not usually done with string values.
 let radius;
 let circumference;
 
-radius = window.prompt("Enter the radius of a circle: "); // Currently it's a string type.
-radius = Number(radius);
+document.getElementById("mySubmit").onclick = function(){
+    document.getElementById("myText").value;
+    radius = Number(radius);
+    circumference = 2 * PI * radius;
+}
