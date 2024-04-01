@@ -161,4 +161,5 @@ document.getElementById("mySubmit").onclick = function(){
     document.getElementById("myText").value;
     radius = Number(radius);
     circumference = 2 * PI * radius;
-}
+    document.getElementById("myH3").textcontent = circumference;
+};
