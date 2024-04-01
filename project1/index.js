@@ -25,5 +25,9 @@ comment
 //2. assignment      x = 100;
 
 let age = 25;
+let price = 10.99;
+let gpa = 2.1;
 
 console.log(age);
+console.log(price);
+console.log(gpa);
