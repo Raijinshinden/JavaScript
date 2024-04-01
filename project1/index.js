@@ -19,3 +19,7 @@ comment
 
 //Variables = A container that stores a value.
 //Behaves as if it were the value it contains.
+
+//There are two steps to creating a variable.
+//1. declaration     let x;
+//2. assignment      x = 100;
