@@ -23,3 +23,6 @@ comment
 //There are two steps to creating a variable.
 //1. declaration     let x;
 //2. assignment      x = 100;
+
+let x;
+x = 100;
