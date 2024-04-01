@@ -121,3 +121,8 @@ let username;
     document.getElementById("myH1").textContent = `Hello ${username}.`
 };
 */
+
+//Type Conversion
+//Changing the datatype of a value to another.
+//(strings, numbers, booleans)
+
