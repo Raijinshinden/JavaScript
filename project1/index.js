@@ -24,7 +24,6 @@ comment
 //1. declaration     let x;
 //2. assignment      x = 100;
 
-let x;
-x = 100;
+let age = 25;
 
-console.log(x);
+console.log(age);
