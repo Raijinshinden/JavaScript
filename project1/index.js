@@ -45,6 +45,6 @@ console.log(typeof age);
 console.log(typeof gpa);
 
 console.log(typeof firstname);
-console.log(`Your name is ${firstname}.`)
-console.log(`You like ${favoriteFood}.`)
-console.log(`Your email is ${email}`;)
+console.log(`Your name is ${firstname}.`);
+console.log(`You like ${favoriteFood}.`);
+console.log(`Your email is ${email}`);
