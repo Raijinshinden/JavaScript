@@ -104,7 +104,18 @@ let students = 30;
 
 //let username;
 
-//Get user to input their user name with a window prompt.
+//Get user to input their username with a window prompt.
 //username = window.prompt("What's your username?"); 
 
 //console.log(username);
+
+//Get user to input their username with an HTML textbox
+
+//Everything we write in the curly braces is what will be done when we click on the button.
+
+let username;
+
+document.getElementById("mySubmit").onclick = function() {
+    username = document.getElementById("myText").value;
+    console.log(username);
+};
