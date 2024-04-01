@@ -156,3 +156,6 @@ console.log(z, typeof z);
 let pi = 3.14159;
 let radius;
 let circumference;
+
+radius = window.prompt("Enter the radius of a circle: "); // Currently it's a string type.
+radius = Number(radius);
