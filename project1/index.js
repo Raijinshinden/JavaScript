@@ -28,6 +28,12 @@ let age = 25;
 let price = 10.99;
 let gpa = 2.1;
 
+
+let firstname = "Ryan";
+let lastName = "Dempsey";
+let favoriteFood = "pizza";
+let email = "bro@googleplex.com";
+
 //Using a template literal, we can insert a variable using a placeholder.
 console.log(`You are ${age} years old.`);
 console.log(`The price is $${price}.`);
@@ -37,3 +43,8 @@ console.log(`Your gpa is: ${gpa}`);
 console.log(typeof price);
 console.log(typeof age);
 console.log(typeof gpa);
+
+console.log(typeof firstname);
+console.log(`Your name is ${firstname}.`)
+console.log(`You like ${favoriteFood}.`)
+console.log(`Your email is ${email}`;)
