@@ -113,9 +113,11 @@ let students = 30;
 
 //Everything we write in the curly braces is what will be done when we click on the button.
 
+/*
 let username;
 
-document.getElementById("mySubmit").onclick = function() {
+//document.getElementById("mySubmit").onclick = function() {
     username = document.getElementById("myText").value;
     document.getElementById("myH1").textContent = `Hello ${username}.`
 };
+*/
