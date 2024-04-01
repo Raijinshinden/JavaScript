@@ -65,3 +65,17 @@ comment
 //document.getElementById("p1").textContent = `Your name is ${fullName}`;
 //document.getElementById("p2").textContent = `You are ${age} years old`;
 //document.getElementById("p3").textContent = `Enrolled in school: ${isStudent}`;
+
+//Arithmetic Operators
+
+let students = 30;
+
+//students = students + 1;
+//students = students - 1;
+//students = students * 1;
+//students = students / 1;
+//students = students ** 2; This is an exponent (to the power of 2).
+// students = students % 2; This is the modulus operator (returns the remainder of a division).
+
+
+console.log(students)
