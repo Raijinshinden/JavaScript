@@ -32,7 +32,7 @@ let gpa = 2.1;
 let firstname = "Ryan";
 let lastName = "Dempsey";
 let favoriteFood = "pizza";
-let email = "bro@googleplex.com";
+let email = "ryan911@googleplex.com";
 
 //Using a template literal, we can insert a variable using a placeholder.
 console.log(`You are ${age} years old.`);
