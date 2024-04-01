@@ -24,33 +24,44 @@ comment
 //1. declaration     let x;
 //2. assignment      x = 100;
 
-let age = 25;
-let price = 10.99;
-let gpa = 2.1;
+//let age = 25;
+//let price = 10.99;
+//let gpa = 2.1;
 
 
-let firstname = "Ryan";
-let lastName = "Dempsey";
-let favoriteFood = "pizza";
-let email = "ryan911@googleplex.com";
+//let firstname = "Ryan";
+//let lastName = "Dempsey";
+//let favoriteFood = "pizza";
+//let email = "ryan911@googleplex.com";
 
 //Using a template literal, we can insert a variable using a placeholder.
-console.log(`You are ${age} years old.`);
-console.log(`The price is $${price}.`);
-console.log(`Your gpa is: ${gpa}`);
+//console.log(`You are ${age} years old.`);
+//console.log(`The price is $${price}.`);
+//console.log(`Your gpa is: ${gpa}`);
 
 //If we need to display the datatype of a variable, we can use console.log(), and precede the variable with the type of keyword.
-console.log(typeof price);
-console.log(typeof age);
-console.log(typeof gpa);
+//console.log(typeof price);
+//console.log(typeof age);
+//console.log(typeof gpa);
 
-console.log(typeof firstname);
-console.log(`Your name is ${firstname}.`);
-console.log(`You like ${favoriteFood}.`);
-console.log(`Your email is ${email}`);
+//console.log(typeof firstname);
+//console.log(`Your name is ${firstname}.`);
+//console.log(`You like ${favoriteFood}.`);
+//console.log(`Your email is ${email}`);
 
-let online = true;
-let forSale = false;
+//let online = true;
+//let forSale = false;
 
-console.log(`Bro is online: ${online}`);
-console.log(`Is this car for sale: ${forSale}`);
+//console.log(`Bro is online: ${online}`);
+//console.log(`Is this car for sale: ${forSale}`);
+
+
+//let fullName = "Ryan Dempsey";
+//let age = 27;
+//let isStudent = false;
+
+//To change the text content of an html element.
+
+//document.getElementById("p1").textContent = `Your name is ${fullName}`;
+//document.getElementById("p2").textContent = `You are ${age} years old`;
+//document.getElementById("p3").textContent = `Enrolled in school: ${isStudent}`;
