@@ -75,7 +75,36 @@ let students = 30;
 //students = students * 1;
 //students = students / 1;
 //students = students ** 2; This is an exponent (to the power of 2).
-// students = students % 2; This is the modulus operator (returns the remainder of a division).
+// let extraStudents = students % 2; This is the modulus operator (returns the remainder of a division).
+
+//Augmented assignment operators
+//students += 1;
+//students -= 1;
+//students *= 2;
+//students /= 2;
+//students **= 2;
+//students %= 2;
+
+//To increase a variable by only 1;
+//students++;
+//students--;
+
+//operator precedence; (solving in order from left to right);
+//1. parenthesis ()
+//2. exponents
+//3. multiplication, division, modulo
+//4. addition & subtraction
+
+//Ex: 1 + 2 * 3 + 4 ** 2 = 23;
 
 
-console.log(students)
+//How to accept user input.
+//1. Easy way = window prompt
+//2. Professional way = HTML textbox
+
+//let username;
+
+//Get user to input their user name with a window prompt.
+//username = window.prompt("What's your username?"); 
+
+//console.log(username);
