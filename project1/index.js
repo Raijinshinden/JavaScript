@@ -48,3 +48,9 @@ console.log(typeof firstname);
 console.log(`Your name is ${firstname}.`);
 console.log(`You like ${favoriteFood}.`);
 console.log(`Your email is ${email}`);
+
+let online = true;
+let forSale = false;
+
+console.log(`Bro is online: ${online}`);
+console.log(`Is this car for sale: ${forSale}`);
