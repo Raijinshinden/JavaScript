@@ -192,4 +192,7 @@ z = Math.round(x);
 
 // z = Math.trunc(x); This would return 3.
 
-//To raise a base to another given number we can use thr
+//To raise a base to another given number we can use 
+//the (.pow) method.
+
+//Ex: z = Math.pow(x, y); This equals x to the power of y.
