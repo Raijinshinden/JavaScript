@@ -182,8 +182,12 @@ let z;
 z = Math.round(x);
 */
 
-// We also fave floor(), which will always round the number down to it's
+// We also Math.floor(), which will always round the number down to it's
 //nearest integer.
 
 //Math.ceil, will always round the number up to the nearest
 // integer.
+
+// Truncate will get rid of any decimal points.
+
+// z = Math.trunc(x); This would return 3. 
