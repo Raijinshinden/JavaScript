@@ -223,6 +223,33 @@ if(time < 12) {
     console.log("Good Afternoon.")
 }
 
-
-
 */
+const myText = document.getElementById("myText");
+const mySubmit = document.getElementById("mySubmit");
+const resultElement = document.getElementById("resultElement");
+let age;
+
+mySubmit.onclick = function(){
+
+    age = myText.value;
+    age = Number(age);
+
+    if(age >= 100){
+        resultElement.textContent = `You are TOO OLD to enter this site.`;
+    }
+    else if(age == 0){
+        console.log("You were LITERALLY just born.");
+    }
+    else if(age >= 18){
+        console.log("You are old enough to enter this site.")
+    }
+    else if(age < 0){
+        console.log("Your age can't be below 0.");
+    }
+    else{
+        console.log("You must be 18+ to enter this site.")
+    }
+}
+
+
+
