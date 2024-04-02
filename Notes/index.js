@@ -269,6 +269,6 @@ mySubmit.onclick = function() {
         subResult.textContent = `You are subscribed!`;
     }
     else{
-        subResult.textContent = `You are not subscribed!`;
+        subResult.textContent = `You are NOT subscribed!`;
     }
 }
