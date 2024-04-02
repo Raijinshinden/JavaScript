@@ -7,7 +7,8 @@
 
 //If we are looking for a random number between a range,
 
-const min = 50;
-const max = 100;
+//const min = 50;
+//const max = 100;
 
-let randomNum = Math.floor(Math.random() * (max - min)) + min;
+//let randomNum = Math.floor(Math.random() * (max - min)) + min;
+//console.log(randomNum);
