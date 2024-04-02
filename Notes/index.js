@@ -253,4 +253,10 @@ mySubmit.onclick = function(){
 }
 */
 
+//.checked = property that determines the checked state of an
+//           HTML checkbox or radio button element.
 
+const myCheckbox = document.getElementById("myCheckbox");
+const visaBtn = document.getElementById("visaBtn");
+const masterCardBtn = document.getElementById("masterCardBtn");
+const payPalBtn = document.getElementById("payPalBtn");
