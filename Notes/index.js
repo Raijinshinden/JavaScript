@@ -171,4 +171,19 @@ document.getElementById("mySubmit").onclick = function(){
 //Math - built-in object that provides a
 //       collection of properties and methods.
 
-console.log(Math.PI);
+//console.log(Math.PI);
+
+//Math gives us access to a lot of useful math related methods.
+/*
+let x = 3.21;
+let y = 2;
+let z;
+
+z = Math.round(x);
+*/
+
+// We also fave floor(), which will always round the number down to it's
+//nearest integer.
+
+//Math.ceil, will always round the number up to the nearest
+// integer.
