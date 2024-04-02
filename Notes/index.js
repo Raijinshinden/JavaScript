@@ -378,3 +378,13 @@ console.log(userName.toLowerCase());//Changes all characters to lowercase
 
 //                 string.slice(start, end);
 
+const fullName = "Ryan Dempsey";
+
+//let firstName = fullName.slice(0, 4);
+//let lastName = fullName.slice(5, 12);
+
+let firstCharacter = fullName.slice(0, 1);
+let lastCharacter = fullName.slice(-1);
+
+console.log(firstName);
+console.log(lastName);
