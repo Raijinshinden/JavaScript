@@ -190,4 +190,6 @@ z = Math.round(x);
 
 // Truncate will get rid of any decimal points.
 
-// z = Math.trunc(x); This would return 3. 
+// z = Math.trunc(x); This would return 3.
+
+//To raise a base to another given number we can use thr
