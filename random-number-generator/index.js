@@ -8,6 +8,6 @@
 //If we are looking for a random number between a range,
 
 const min = 50;
-const maz = 100;
+const max = 100;
 
 let randomNum = Math.floor(Math.random() * (Max - min)) + min;
