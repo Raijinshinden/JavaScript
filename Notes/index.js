@@ -196,3 +196,8 @@ z = Math.round(x);
 //the (.pow) method.
 
 //Ex: z = Math.pow(x, y); This equals x to the power of y.
+
+//Math.sqrt = How to get a square root.
+
+//To find the absolute value of a number, we can use the absolute value function.
+//Math.abs;
