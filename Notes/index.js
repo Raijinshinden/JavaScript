@@ -354,7 +354,7 @@ switch(true){
 
 // string methods = allow you to manipulate and work with text (strings);
 
-let userName = "Raichu911     ";
+let userName = "     Raichu911";
 
 console.log(userName.charAt(0)); //Get the character at a certain index;
 
