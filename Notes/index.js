@@ -354,4 +354,14 @@ switch(true){
 
 // string methods = allow you to manipulate and work with text (strings);
 
-let username = "Raichu911"
+let userName = "Raichu911     ";
+
+console.log(userName.charAt(0)); //Get the character at a certain index;
+
+console.log(userName.indexOf("a"));//Where does this code first appear in the code;
+
+console.log(userName.lastIndexOf("a"));//Where is the last index that this character appears at;
+
+console.log(userName.length);//Just returns the length of the string it is attached to.
+
+console.log(userName.trim());//For getting rid of white spaces;
