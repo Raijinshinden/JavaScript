@@ -377,3 +377,4 @@ console.log(userName.toLowerCase());//Changes all characters to lowercase
 //                 from a portion of another string.
 
 //                 string.slice(start, end);
+
