@@ -372,7 +372,7 @@ console.log(userName.toUpperCase());//Changes all characters to uppercase
 console.log(userName.toLowerCase());//Changes all characters to lowercase
 
 */
-
+/*
 //string slicing = creating a substring
 //                 from a portion of another string.
 
@@ -383,8 +383,12 @@ const fullName = "Ryan Dempsey";
 //let firstName = fullName.slice(0, 4);
 //let lastName = fullName.slice(5, 12);
 
-let firstCharacter = fullName.slice(0, 1);
-let lastCharacter = fullName.slice(-1);
+//let firstCharacter = fullName.slice(0, 1);
+//let lastCharacter = fullName.slice(-1);
+
+let firstName = fullName.slice(0, fullName.indexOf(" "));
+let lastName = fullName.slice(fullName.indexOf(" ") + 1);//If we don't add the +1, it will include the space at the beginning of our last name.
 
 console.log(firstName);
 console.log(lastName);
+*/
