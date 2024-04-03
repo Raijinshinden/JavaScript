@@ -28,7 +28,7 @@ while(running == true){
             window.alert("TOO HIGH! TRY AGAIN!")
         }
         else{
-            window.alert(`CORRECT! The answer was ${answer}.`)
+            window.alert(`CORRECT! The answer was ${answer}. It took you ${attempts} attempts.`)
         }
     }
 
