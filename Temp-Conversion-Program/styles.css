@@ -16,3 +16,37 @@ form{
     border-radius: 10px;
     box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
 }
+
+#textBox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid hsl(0, 0%, 0%, 0.8);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 15px;
+    background-color: hsla(304, 87%, 38%, 0.6);
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsla(304, 87%, 38%, 0.9);;
+}
+
+#result{
+    font-size: 1.75em;
+    font-weight: bold;
+}
