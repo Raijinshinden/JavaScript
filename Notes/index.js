@@ -481,3 +481,13 @@ for(let i = 0; i <= 10; i++){ // if we want to increment by a different number v
     console.log(i);
 }
 */
+
+for(let i = 1; i <= 20; i++){
+    
+    if(i == 13){
+        continue; // continue will skip this part of the loop;
+    }
+    else{
+        console.log(i);
+    }
+}
