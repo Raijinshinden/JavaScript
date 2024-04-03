@@ -509,7 +509,8 @@ for(let i = 1; i <= 20; i++){
 //            Declare code once, use it whenever you want.
 //            Call the function to execute that code.
 
-function happyBirthday(username, age){
+/*
+function happyBirthday(username, age){ // parameter order is important;
     console.log("Happy Birthday to you!");
     console.log("Happy Birthday to you!");
     console.log(`Happy Birthday dear ${username}!`); // uses parameter;
@@ -518,3 +519,55 @@ function happyBirthday(username, age){
 }
 
 happyBirthday("Ryan", 28);
+*/
+
+/*
+function add(x, y){
+    return x + y;
+}
+
+function subtract(x, y){
+    return x - y;
+}
+
+function multiply(x, y){
+    return x * y;
+}
+
+function divide(x, y){
+    return x / y;
+}
+
+let answer = add(2, 3); // when we return something from a function, think of it becoming what was returned;
+console.log(answer);
+*/
+/*
+function isEven(number){
+    
+    if(number % 2 === 0){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+console.log(isEven(666));
+
+function isEven(number){ //Example using ternary operator
+    
+    return number % 2 === 0 ? true : false;
+}
+*/
+
+/*
+function isValidEmail(email){
+
+    if(email.includes("@")){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+*/
