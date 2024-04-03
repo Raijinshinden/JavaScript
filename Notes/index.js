@@ -450,3 +450,13 @@ else{
     console.log("It is SUNNY");
 }
 */
+
+// while loops = repeat some code WHILE some condition is true
+
+let username = "Ryan";
+
+while(username === ""){
+    console.log("You didn't enter your name");
+}
+
+console.log(`Hello ${username}`);
