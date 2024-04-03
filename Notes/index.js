@@ -453,10 +453,10 @@ else{
 
 // while loops = repeat some code WHILE some condition is true
 
-let username = "Ryan";
+let username = "";
 
 while(username === ""){
-    console.log("You didn't enter your name");
+    username = window.prompt("Enter your name: ")
 }
 
 console.log(`Hello ${username}`);
