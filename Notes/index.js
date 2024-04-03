@@ -476,7 +476,8 @@ console.log(`Hello ${username}`);
 */
 
 // for loops = repeat some code a LIMITED amount of times
-
-for(let i = 0; i <= 2; i++){
-    console.log("Hello");
+/*
+for(let i = 0; i <= 10; i++){ // if we want to increment by a different number value, we can use += instead of ++;
+    console.log(i);
 }
+*/
