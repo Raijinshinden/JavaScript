@@ -583,17 +583,55 @@ function isValidEmail(email){
 //Any variable declared outside of a function has global scope,
 //it can be used all throughout the program.
 
-
+/*
 // array = a variable like structure that can hold
 //         more than 1 value
 
-let fruits = ["apple", "banana", "orange"];
+//let fruits = ["apple", "banana", "orange"];
 
-console.log(fruits[0]);
-console.log(fruits[1]);
-console.log(fruits[2]);
+//console.log(fruits[0]);
+//console.log(fruits[1]);
+//console.log(fruits[2]);
 
 //fruits.push("coconut") //Pushes value to end of array.
 //fruits.pop() //Pops value from end of array.
 //fruits.unshift("mango") //Adds value to beginning of array.
-fruits.shift() //Removes value from start of array.
+//fruits.shift() //Removes value from start of array.
+
+//let numOfFruits = fruits.length; //To get the length of the array.
+// let index = fruits.indexOf("apple"); //To get the index of an item in the array.
+*/
+
+
+/*
+// spread operator = ... allows an iterable such as an
+//                   array or string to be expanded
+//                   into seperate elements
+//                   (unpacks the elements)
+
+let numbers = [1, 2, 3, 4, 5];
+let maximum = Math.max(...numbers);
+let minimum = Math.min(...numbers);
+
+console.log(maximum);
+console.log(minimum);
+*/
+
+
+//rest parameters = (...rest) allow a function work with a variable
+//                  number of arguments by bundling them into an array
+
+//                  spread = expands an array into seperate elements
+//                  rest = bundles seperate elements into an array
+
+function openFridge(...foods){
+    console.log(foods);
+}
+
+const food1 = "pizza";
+const food2 = "hamburger";
+const food3 = "hotdog";
+const food4 = "sushi";
+const food5 = "ramen";
+
+openFridge(food1, food2, food3, food4, food5);
