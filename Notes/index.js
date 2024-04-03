@@ -397,7 +397,7 @@ console.log(lastName);
 //                  in one continuous line of code.
 
 // ----- NO METHOD CHAINING -----
-
+/*
 let username = window.prompt("Enter your username: ");
 
 username = username.trim();
@@ -409,5 +409,6 @@ extraChars = extraChars.toLowerCase();
 username = letter + extraChars;
 
 console.log(username);
-
+*/
 // ----- METHOD CHAINING -----
+
