@@ -482,6 +482,7 @@ for(let i = 0; i <= 10; i++){ // if we want to increment by a different number v
 }
 */
 
+/*
 for(let i = 1; i <= 20; i++){
     
     if(i == 13){
@@ -491,3 +492,15 @@ for(let i = 1; i <= 20; i++){
         console.log(i);
     }
 }
+*/
+/*
+for(let i = 1; i <= 20; i++){
+    
+    if(i == 13){
+        break; // break will brea out of the loop entirely;
+    }
+    else{
+        console.log(i);
+    }
+}
+*/
