@@ -571,3 +571,15 @@ function isValidEmail(email){
     }
 }
 */
+
+// variable scope = where a variable is recognized
+//                  and accessible (local vs global)
+
+// Any variable declared in a funtion has local scope, 
+//so you can have multiple funtions with the same variable names.
+
+//Functions can't see inside other functions.
+
+//Any variable declared outside of a function has global scope,
+//it can be used all throughout the program.
+
