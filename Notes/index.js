@@ -392,3 +392,5 @@ let lastName = fullName.slice(fullName.indexOf(" ") + 1);//If we don't add the +
 console.log(firstName);
 console.log(lastName);
 */
+
+//Method Chaining = 
