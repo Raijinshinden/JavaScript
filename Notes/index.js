@@ -623,7 +623,7 @@ console.log(minimum);
 
 //                  spread = expands an array into seperate elements
 //                  rest = bundles seperate elements into an array
-
+/*
 function openFridge(...foods){
     console.log(foods);
 }
@@ -643,3 +643,7 @@ const food5 = "ramen";
 const foods = getFood(food1, food2, food3, food4, food5);
 
 console.log(foods);
+*/
+
+
+//
