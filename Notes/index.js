@@ -583,3 +583,17 @@ function isValidEmail(email){
 //Any variable declared outside of a function has global scope,
 //it can be used all throughout the program.
 
+
+// array = a variable like structure that can hold
+//         more than 1 value
+
+let fruits = ["apple", "banana", "orange"];
+
+console.log(fruits[0]);
+console.log(fruits[1]);
+console.log(fruits[2]);
+
+//fruits.push("coconut") //Pushes value to end of array.
+//fruits.pop() //Pops value from end of array.
+//fruits.unshift("mango") //Adds value to beginning of array.
+fruits.shift() //Removes value from start of array.
