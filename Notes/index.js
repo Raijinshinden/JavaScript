@@ -509,12 +509,12 @@ for(let i = 1; i <= 20; i++){
 //            Declare code once, use it whenever you want.
 //            Call the function to execute that code.
 
-function happyBirthday(){
+function happyBirthday(username, age){
     console.log("Happy Birthday to you!");
     console.log("Happy Birthday to you!");
-    console.log(`Happy Birthday dear ${username}!`);
+    console.log(`Happy Birthday dear ${username}!`); // uses parameter;
     console.log("Happy Birthday to you!");
-    console.log(`You are ${age} years old.`);
+    console.log(`You are ${age} years old.`); // uses parameter;
 }
 
-happyBirthday();
+happyBirthday("Ryan", 28);
