@@ -477,3 +477,6 @@ console.log(`Hello ${username}`);
 
 // for loops = repeat some code a LIMITED amount of times
 
+for(let i = 0; i <= 2; i++){
+    console.log("Hello");
+}
