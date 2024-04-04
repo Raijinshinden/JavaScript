@@ -893,11 +893,14 @@ console.log(total);
 //                      object = {key:value,
 //                                function()}
 
+/*
 const person1 = {
     firstName: "Spongebob",
     lastName: "Squarepants",
     age: 30,
     isEmployed: true,
+    sayHello: function(){console.log("Hi! I'm Spongebob")},
+    eat: function(){console.log("I'm eating a Krabby Patty.")}
 }
 
 const person2 = {
@@ -905,14 +908,16 @@ const person2 = {
     lastName: "Star",
     age: 42,
     isEmployed: false,
+    sayHello: function(){console.log("Ahahaha, He got hit in the head with a coconut")},
+    eat: () => console.log("I'm eating roast beef, a chicken, some pizza, ....")
 }
 
-console.log(person1.firstName);
-console.log(person1.lastName);
-console.log(person1.age);
-console.log(person1.isEmployed);
+person1.sayHello();
+person2.sayHello();
+person1.eat();
+person2.eat();
 
-console.log(person2.firstName);
-console.log(person2.lastName);
-console.log(person2.age);
-console.log(person2.isEmployed);
+*/
+
+
+//
