@@ -803,12 +803,51 @@ function isChild(element){
 // .reduce() = reduce the elements of an array
 //             to a single value
 
+/*
 const prices = [5, 6, 2, 10, 30, 50];
 
 const total = prices.reduce(sum);
 
-console.log(`$${total}`)
+console.log(`$${total.toFixed(2)}`)
 
 function sum(accumulator, element){
     return accumulator + element;
 }
+
+
+const grades = [75, 50, 90, 80, 65, 95];
+
+const maximum = grades.reduce(getMax);
+const minimum = grades.reduce(getMin);
+
+console.log(maximum)
+console.log(minimum)
+
+function getMax(accumulator, element){
+    return Math.max(accumulator, element);
+}
+
+function getMin(accumulator, element){
+    return Math.min(accumulator, element);
+}
+
+*/
+
+// function declaration = define a reusable block of code
+//                        that performs a specific task
+
+function hello1(){
+   console.log("Hello");
+}
+
+// function expression = a way to define functions as
+//                       values or variables
+/*
+const hello = function(){
+    console.log("Hello");
+}
+
+hello();
+*/
+
+setTimeout(hello1, 3000);
