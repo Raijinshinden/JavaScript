@@ -800,4 +800,15 @@ function isChild(element){
 */
 
 
-// 
+// .reduce() = reduce the elements of an array
+//             to a single value
+
+const prices = [5, 6, 2, 10, 30, 50];
+
+const total = prices.reduce(sum);
+
+console.log(`${total}`)
+
+function sum(accumulator, element){
+    return accumulator + element;
+}
