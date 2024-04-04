@@ -694,6 +694,7 @@ function displayConsole(result){
 //             to each element.
 
 //             array.forEach(callback)
+//             element, index, array are provided
 
 let numbers = [1, 2, 3, 4, 5];
 
