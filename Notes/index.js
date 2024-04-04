@@ -871,7 +871,7 @@ const hello = (name, age) => {console.log(`Hello ${name}`)
 hello("Ryan", 27);
 
 setTimeout(() => console.log("Hello"), 3000);
-*/
+
 //
 const numbers = [1, 2, 3, 4, 5, 6];
 
@@ -886,3 +886,33 @@ console.log(cubes);
 console.log(evenNums);
 console.log(oddNums);
 console.log(total);
+*/
+
+// JavaScript objects = A collection of related properties and/or methods
+//                      Can represent real world objects (people, products, places)
+//                      object = {key:value,
+//                                function()}
+
+const person1 = {
+    firstName: "Spongebob",
+    lastName: "Squarepants",
+    age: 30,
+    isEmployed: true,
+}
+
+const person2 = {
+    firstName: "Patrick",
+    lastName: "Star",
+    age: 42,
+    isEmployed: false,
+}
+
+console.log(person1.firstName);
+console.log(person1.lastName);
+console.log(person1.age);
+console.log(person1.isEmployed);
+
+console.log(person2.firstName);
+console.log(person2.lastName);
+console.log(person2.age);
+console.log(person2.isEmployed);
