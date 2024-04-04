@@ -696,6 +696,8 @@ function displayConsole(result){
 //             array.forEach(callback)
 //             element, index, array are provided
 
+
+/*
 let numbers = [1, 2, 3, 4, 5];
 
 numbers.forEach(cube);
@@ -721,3 +723,7 @@ function display(element){
     console.log(element);
 }
 
+*/
+
+
+//
