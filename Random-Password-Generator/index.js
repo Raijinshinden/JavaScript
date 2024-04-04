@@ -18,8 +18,15 @@ function generatePassword(length, includeLowercase, includeUppercase, includeNum
     if(length <= 0){
         return `(password length must be at least 1)`;
     }
+    if(allowedChars.length === 0){
+        return `(At least 1 set of characters needs to be selected)`
+    }
 
-    return '';
+    for(let i = 0; i < length; i++){
+        const randomIndex = Math.floor(Math.random() * allowedChars.length);
+        password += allowedChars[randomIndex];
+    }
+    return password;
 }
 
 
