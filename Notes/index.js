@@ -853,5 +853,18 @@ hello();
 setTimeout(function(){
     console.log("HelloS");
 }, 3000);
-
 */
+
+
+// arrow functions = a concise way to write function expressions
+//                   good for simple functions that you use only once
+//                   (parameters) => some code
+/*
+function hello(){
+    console.log("Hello");
+}
+*/
+
+const hello = () => console.log("Hello");
+
+hello();
