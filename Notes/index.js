@@ -655,7 +655,7 @@ console.log(foods);
 //            3. Interacting with databases
 
 //            "Hey, when you're done, call this next."
-
+/*
 hello(wait);
 
 
@@ -675,3 +675,22 @@ function leave(){
 function goodbye(){
     console.log("Goodbye");
 }
+
+
+sum(displayConsole, 1, 2)
+
+function sum(callback, x, y){
+    let result = x + y;
+    callback(result);
+}
+
+function displayConsole(result){
+    console.log(result);
+}
+*/
+
+// forEach() = method used to iterate over the elements
+//             of an array and apply a specified function (callback)
+//             to each element.
+
+//             array.forEach(callback)
