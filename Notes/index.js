@@ -1049,10 +1049,17 @@ class User{
         this.userName = userName;
         User.userCount++;
     }
+
+    sayHello(){
+        console,log(`Hello, my username is ${this.userName}`)
+    }
 }
 
 const user1 = new User("Spongebob");
 const user2 = new User("Patrick");
+const user3 = new User("Sandy");
 
-console.log(user1.userName);
+user1.sayHello();
+user2.sayHello();
+user3.sayHello();
 console.log(User.userCount);
