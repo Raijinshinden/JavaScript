@@ -1018,6 +1018,7 @@ console.log(`Total price (with tax): $${total.toFixed(2)}`);
 //          to a class itself rather than the objects created
 //          from that class (class owns anything static, not the objects)
 
+/*
 class MathUtil{
     static PI = 3.14159;
 
@@ -1038,3 +1039,20 @@ console.log(MathUtil.PI);
 console.log(MathUtil.getDiameter(10));
 console.log(MathUtil.getCircumference(10));
 console.log(MathUtil.getArea(10));
+
+*/
+
+class User{
+    static userCount = 0;
+
+    constructor(userName){
+        this.userName = userName;
+        User.userCount++;
+    }
+}
+
+const user1 = new User("Spongebob");
+const user2 = new User("Patrick");
+
+console.log(user1.userName);
+console.log(User.userCount);
