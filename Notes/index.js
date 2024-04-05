@@ -1187,6 +1187,7 @@ rabbit.run();
 
 // validate and moodify a value when reading/writting a property
 
+/*
 class Rectangle{
 
     constructor(width, height){
@@ -1213,11 +1214,15 @@ class Rectangle{
     }
 
     get width(){
-        return this._width;
+        return `${this._width.toFixed(1)}cm`;
     }
 
     get height(){
-        return this._height;
+        return `${this._height.toFixed(1)}cm`;
+    }
+
+    get area(){
+        return `${(this._width * this._height).toFixed(1)}cm`;
     }
 }
 
@@ -1225,3 +1230,6 @@ const rectangle = new Rectangle(3, 4);
 
 console.log(rectangle.width);
 console.log(rectangle.height);
+console.log(rectangle.area);
+*/
+
