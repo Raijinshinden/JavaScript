@@ -1124,31 +1124,29 @@ rabbit.sleep();
 //         super = the parent
 
 class Animal{
-    constructor(){
-
+    constructor(name, age){
+        this.name = name;
+        this.age = age;
     }
 }
 
 class Rabbit extends Animal{
     constructor(name, age, runSpeed){
-        this.name = name;
-        this.age = age;
+        super(name, age);
         this.runSpeed = runSpeed;
     }
 }
 
 class Fish extends Animal{
     constructor(name, age, swimSpeed){
-        this.name = name;
-        this.age = age;
+        super(name, age);
         this.swimSpeed = swimSpeed;
     }
 }
 
 class Hawk extends Animal{
     constructor(name, age, flySpeed){
-        this.name = name;
-        this.age = age;
+        super(name, age);
         this.flySpeed = flySpeed;
     }
 }
