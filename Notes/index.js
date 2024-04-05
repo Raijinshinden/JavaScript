@@ -982,6 +982,7 @@ car3.drive();
 //          work with objects compared to traditional constructor functions
 //          ex. static keyword, encapsulation, inheritance.
 
+/*
 class Product{
     constructor(name, price){
         this.name = name;
@@ -1010,3 +1011,9 @@ product3.displayProduct();
 
 const total = product2.calculateTotal(salesTax);
 console.log(`Total price (with tax): $${total.toFixed(2)}`);
+*/
+
+
+// static = keyword that defines properties or methods that belong 
+//          to a class itself rather than the objects created
+//          from that class (class owns anything static, not the objects)
