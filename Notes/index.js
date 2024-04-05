@@ -1040,7 +1040,7 @@ console.log(MathUtil.getDiameter(10));
 console.log(MathUtil.getCircumference(10));
 console.log(MathUtil.getArea(10));
 
-*/
+
 
 class User{
     static userCount = 0;
@@ -1049,9 +1049,12 @@ class User{
         this.userName = userName;
         User.userCount++;
     }
-
+    
+    static getUserCount(){
+        console.log(`There are ${User.userCount} users online.`);
+    }
     sayHello(){
-        console,log(`Hello, my username is ${this.userName}`)
+        console.log(`Hello, my username is ${this.userName}`)
     }
 }
 
@@ -1062,4 +1065,7 @@ const user3 = new User("Sandy");
 user1.sayHello();
 user2.sayHello();
 user3.sayHello();
-console.log(User.userCount);
+User.getUserCount();
+*/
+
+//
