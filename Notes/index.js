@@ -1068,4 +1068,54 @@ user3.sayHello();
 User.getUserCount();
 */
 
-//
+// inheritance = allows a new class to inherit properties and methods
+//               from an existing class (parent -> child)
+//               helps with code reusability
+
+/*
+class Animal{
+    alive = true;
+
+    eat(){
+        console.log(`This ${this.name} is eating`)
+    }
+
+    sleep(){
+        console.log(`This ${this.name} is sleeping`)
+    }
+}
+
+class Rabbit extends Animal{
+    name = "rabbit";
+
+    run(){ //This method can only be used by the rabbit.
+        console.log(`This ${this.name} is running`);
+    }
+}
+
+class Fish extends Animal{
+    name = "fish";
+
+    swim(){ //This method can only be used by the fish.
+        console.log(`This ${this.name} is swimming`);
+    }
+}
+
+class Hawk extends Animal{
+    name = "hawk";
+
+    fly(){ //This method can only be used by the hawk.
+        console.log(`This ${this.name} is flying`);
+    }
+}
+
+const rabbit = new Rabbit();
+const fish = new Fish();
+const hawk = new Hawk();
+
+rabbit.eat();
+rabbit.sleep();
+
+*/
+
+// 
