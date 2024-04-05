@@ -1123,6 +1123,7 @@ rabbit.sleep();
 //         this = this object
 //         super = the parent
 
+/*
 class Animal{
     constructor(name, age){
         this.name = name;
@@ -1179,3 +1180,48 @@ console.log(rabbit.age);
 console.log(rabbit.runSpeed);
 
 rabbit.run();
+*/
+
+// getter = special method that makes a property readable
+// setter = special method that makes a property writtable
+
+// validate and moodify a value when reading/writting a property
+
+class Rectangle{
+
+    constructor(width, height){
+        this.width = width;
+        this.height = height;
+    }
+
+    set width(newWidth){
+        if(newWidth > 0){
+            this._width = newWidth
+        }
+        else{
+            console.error("Width must be a positive number.");
+        }
+    }
+
+    set height(newHeight){
+        if(newHeight > 0){
+            this._height = newHeight;
+        }
+        else{
+            console.error("Height must be a positive number.");
+        }
+    }
+
+    get width(){
+        return this._width;
+    }
+
+    get height(){
+        return this._height;
+    }
+}
+
+const rectangle = new Rectangle(3, 4);
+
+console.log(rectangle.width);
+console.log(rectangle.height);
