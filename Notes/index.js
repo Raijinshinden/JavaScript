@@ -1377,7 +1377,7 @@ const person2 = new Person("Patrick", 37, "128 Conch St",
 const person3 = new Person("Squidward", 45, "126 Conch St", 
                           "Bikini Bottom", "Int. Waters");
 
-*/
+
 
 // Array of Objects //
 
@@ -1418,4 +1418,48 @@ const maxFruit = fruits.reduce((max, fruit) =>
                               fruit.calories > max.calories ?
                               fruit : max);
 
+const minFruit = fruits.reduce((min, fruit) => 
+                              fruit.calories < min.calories ?
+                              fruit : min);
+
 console.log(maxFruit);
+console.log(minFruit);
+*/
+
+// sort() = method used to sort elements of an array in place.
+//           Sorts elements as strings in lexicographic order, not alphabetical
+//           lexicographic = (alphabet + numbers + symbols) as strings
+
+// let numbers = [1, 10, 4, 7, 2, 9, 8, 3, 5, 6];
+
+// numbers.sort((a, b) => a - b);
+
+// console.log(numbers);
+/*
+const people = [{name: "Spongebob", age: 30, gpa: 3.6},
+                {name: "Patrick", age: 37, gpa: 1.5},
+                {name: "Squidward", age: 51, gpa: 2.5},
+                {name: "Sandy", age: 27, gpa: 4.0}]
+
+people.sort((a, b) => a.age - b.age); // For reverse order, just switch the values around //
+people.sort((a, b) => a.name.localeCompare(b.name));
+
+console.log(people);
+
+*/
+
+// Shuffle an Array //
+
+const cards = ['A', 2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K'];
+shuffle(cards);
+console.log(cards);
+
+// Fisher - Yates Algorithm // 
+
+function shuffle(array){
+    for(let i = array.length - 1; i > 0; i--){
+        const random = Math.floor(Math.random() * (i + 1));
+
+        [array[i], array[random]] = [array[random], array[i]];
+    }
+}
