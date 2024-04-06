@@ -17,7 +17,7 @@ function start(){
 function stop(){
     if(isRunning){
         clearInterval(timer);
-        elapsedtime = Date.now - startTime;
+        elapsedtime = Date.now() - startTime;
         isRunning = false;
     }
     
@@ -27,7 +27,7 @@ function reset(){
     clearInterval(timer);
     startTime = 0;
     elapsedtime = 0;
-    isRunning = 0;
+    isRunning = false;
     display.textContent = "00:00:00:00";
     
 }
