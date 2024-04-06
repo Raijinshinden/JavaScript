@@ -1298,7 +1298,7 @@ console.log(job);
 // Ex 5 //
 // Destructure in function parameters //
 
-function displayPerson({firstName, lastName, age, job}){
+function displayPerson({firstName, lastName, age, job="Unemployed"}){
     console.log(`name: ${firstName} ${lastName}`);
     console.log(`age: ${age}`);
     console.log(`job: ${job}`);
