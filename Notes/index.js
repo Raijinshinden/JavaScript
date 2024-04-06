@@ -1239,3 +1239,5 @@ console.log(rectangle.area);
 //                 {} = to perform object destructuring
 //                  5 examples
 
+// Ex 1 //
+// Swap the value of two variables //
