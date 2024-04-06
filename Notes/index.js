@@ -1258,7 +1258,7 @@ const colors = ["red", "green", "blue", "black", "white"];
 
 [colors[0], colors[4]] = [colors[4], colors[0]];
 console.log(colors);
-*/
+
 // Ex 3 //
 // Assign array elements to variables //
 
@@ -1270,3 +1270,51 @@ console.log(firstColor);
 console.log(secondColor);
 console.log(thirdColor);
 console.log(extraColors);
+
+
+// Ex 4 //
+// Extract values from objects //
+
+const person1 = {
+    firstName: "Spongebob",
+    lastName: "Squarepants",
+    age: 30,
+    job: "fry cook",
+}
+
+const person2 = {
+    firstName: "Patrick",
+    lastName: "Star",
+    age: 34,
+}
+
+const {firstName, lastName, age, job = "Unemployed"} = person2;
+
+console.log(firstName);
+console.log(lastName);
+console.log(age);
+console.log(job);
+*/
+// Ex 5 //
+// Destructure in function parameters //
+
+function displayPerson({firstName, lastName, age, job}){
+    console.log(`name: ${firstName} ${lastName}`);
+    console.log(`age: ${age}`);
+    console.log(`job: ${job}`);
+}
+
+const person1 = {
+    firstName: "Spongebob",
+    lastName: "Squarepants",
+    age: 30,
+    job: "fry cook",
+}
+
+const person2 = {
+    firstName: "Patrick",
+    lastName: "Star",
+    age: 34,
+}
+
+displayPerson(person1);
