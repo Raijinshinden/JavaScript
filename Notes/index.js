@@ -1570,3 +1570,22 @@ console.log(date);
 //                Times are approximate (varies based on the workload of the JavaScript runtime env.)
 
 //                setTimeout(callback, delay);
+//                clearTimeout(timeoutId) = can cancel a timeout before it triggers
+
+//const timeoutId = setTimeout(function(){window.alert("Hello")}, 3000);
+
+//setTimeout(() => window.alert("Hello"), 3000);
+
+//clearTimeout(timeoutId);
+
+// let timeoutId;
+
+// function startTimer(){
+//     timeoutId = setTimeout(() => window.alert("Hello"), 3000);
+//     console.log("Started");
+// }
+
+// function clearTimer(){
+//     clearTimeout(timeoutId);
+//     console.log("Cleared");
+// }
