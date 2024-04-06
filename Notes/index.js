@@ -1327,3 +1327,24 @@ displayPerson(person1);
 //                  Person{Address{}, ContactInfo{}}
 //                  ShoppingCart{Keyboard{}, Mouse{}, Monitor{}}
 
+const person = {
+    fullName: "Spongebob Squarepants",
+    age: 30,
+    isStudent: true,
+    hobbies: ["karate", "jellyfishing", "cooking"],
+    address: {
+        street: "124 Conch St",
+        city: "Bikini Bottom",
+        country: "Int. Waters"
+    }
+}
+
+console.log(person.fullName);
+console.log(person.age);
+console.log(person.isStudent);
+console.log(person.hobbies[2]);
+console.log(person.address.country);
+
+for(const property in person.address){
+    console.log(person.address[property]);
+}
