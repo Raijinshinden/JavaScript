@@ -1538,29 +1538,35 @@ console.log(date);
 
 // console.log(`The current count is ${counter.getCount()}`)
 
-function createGame(){
-    let score = 0;
+// function createGame(){
+//     let score = 0;
 
-    function increaseScore(points){
-        score += points;
-        console.log(`+${points}pts`)
-    }
+//     function increaseScore(points){
+//         score += points;
+//         console.log(`+${points}pts`)
+//     }
     
-    function decreaseScore(points){
-        score -= points;
-        console.log(`-${points}pts`)
-    }
+//     function decreaseScore(points){
+//         score -= points;
+//         console.log(`-${points}pts`)
+//     }
     
-    function getScore(){
-        return score;
-    } 
+//     function getScore(){
+//         return score;
+//     } 
 
-    return {increaseScore, decreaseScore, getScore};
-}
+//     return {increaseScore, decreaseScore, getScore};
+// }
 
-const game = createGame();
+// const game = createGame();
 
-game.increaseScore(8);
-game.increaseScore(2);
-game.decreaseScore(2);
-console.log(`The final score is ${game.getScore()}pts`);
+// game.increaseScore(8);
+// game.increaseScore(2);
+// game.decreaseScore(2);
+// console.log(`The final score is ${game.getScore()}pts`);
+
+// setTimeout() = function in javaScript that allows you to schedule
+//                the execution of a function after an amount of time (milliseconds)
+//                Times are approximate (varies based on the workload of the JavaScript runtime env.)
+
+//                setTimeout(callback, delay);
