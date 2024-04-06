@@ -1294,11 +1294,11 @@ console.log(firstName);
 console.log(lastName);
 console.log(age);
 console.log(job);
-*/
+
 // Ex 5 //
 // Destructure in function parameters //
 
-function displayPerson({firstName, lastName, age, job="Unemployed"}){
+function displayPerson({firstName, lastName, age, job="Unemployed"}){ //If there is no value for a parameter, we can add a default one with = //
     console.log(`name: ${firstName} ${lastName}`);
     console.log(`age: ${age}`);
     console.log(`job: ${job}`);
@@ -1318,3 +1318,6 @@ const person2 = {
 }
 
 displayPerson(person1);
+*/
+
+//
