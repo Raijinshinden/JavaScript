@@ -1241,3 +1241,11 @@ console.log(rectangle.area);
 
 // Ex 1 //
 // Swap the value of two variables //
+
+let a = 1;
+let b = 2;
+
+[a, b] = [b, a];
+
+console.log(a);
+console.log(b);
