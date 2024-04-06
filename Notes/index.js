@@ -1398,8 +1398,24 @@ const fruitNames = fruits.map(fruit => fruit.name);
 const fruitColors = fruits.map(fruit => fruit.color);
 const fruitCalories = fruits.map(fruit => fruit.calories);
 
-console.log(fruitNames);
-console.log(fruitColors);
-console.log(fruitCalories);
+// console.log(fruitNames);
+// console.log(fruitColors);
+// console.log(fruitCalories);
 
 // filter(): will return a new array after using each element and checking a condition.
+
+const yellowFruits = fruits.filter(fruit => fruit.color === "yellow");
+const lowCalFruits = fruits.filter(fruit => fruit.calories < 100);
+const highCalFruits = fruits.filter(fruit => fruit.calories >= 100);
+
+// console.log(yellowFruits);
+// console.log(lowCalFruits);
+// console.log(highCalFruits);
+
+// reduce(): will return a single value, in this case an object.
+
+const maxFruit = fruits.reduce((max, fruit) => 
+                              fruit.calories > max.calories ?
+                              fruit : max);
+
+console.log(maxFruit);
