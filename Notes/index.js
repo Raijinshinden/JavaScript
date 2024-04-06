@@ -1238,3 +1238,4 @@ console.log(rectangle.area);
 //                 [] = to perform array destructuring
 //                 {} = to perform object destructuring
 //                  5 examples
+
