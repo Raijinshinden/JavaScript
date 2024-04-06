@@ -1253,3 +1253,7 @@ console.log(b);
 // Ex 2 //
 // Swap 2 elements in an array //
 
+const colors = ["red", "green", "blue", "black", "white"];
+
+[colors[0], colors[4]] = [colors[4], colors[0]];
+console.log(colors);
