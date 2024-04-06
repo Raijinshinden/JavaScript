@@ -1249,3 +1249,7 @@ let b = 2;
 
 console.log(a);
 console.log(b);
+
+// Ex 2 //
+// Swap 2 elements in an array //
+
