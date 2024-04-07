@@ -2102,81 +2102,89 @@ const myButton = document.getElementById("myButton");
 //               Everything after Await is placed in an event queue
 
 
-function walkDog(){
+// function walkDog(){
 
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
 
-            const dogWalked = true;
+//             const dogWalked = true;
 
-            if(dogWalked){
-                resolve("You walked the dog. 🐕")
-            }
-            else{
-                reject("You didn't walk the dog!")
-            }
+//             if(dogWalked){
+//                 resolve("You walked the dog. 🐕")
+//             }
+//             else{
+//                 reject("You didn't walk the dog!")
+//             }
             
-        }, 1500)    
-    });
-}
+//         }, 1500)    
+//     });
+// }
 
-function cleanKitchen(){
+// function cleanKitchen(){
 
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
 
-            const kitchenCleaned = true;
+//             const kitchenCleaned = true;
 
-            if(kitchenCleaned){
-                resolve("You cleaned the kitchen.🧹")
-            }
-            else{
-                reject("You didn't clean the kitchen!")
-            }
-
-            
-        }, 2500)
-    });
-}
-
-function takeOutTrash(){
-
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-
-            const trashTakenOut = true;
-
-            if(trashTakenOut){
-                resolve("You took out the trash.🗑️")
-            }
-            else{
-                reject("You didn't take out the trash!")
-            }
+//             if(kitchenCleaned){
+//                 resolve("You cleaned the kitchen.🧹")
+//             }
+//             else{
+//                 reject("You didn't clean the kitchen!")
+//             }
 
             
-        }, 500)
-    })
-}
+//         }, 2500)
+//     });
+// }
+
+// function takeOutTrash(){
+
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+
+//             const trashTakenOut = true;
+
+//             if(trashTakenOut){
+//                 resolve("You took out the trash.🗑️")
+//             }
+//             else{
+//                 reject("You didn't take out the trash!")
+//             }
+
+            
+//         }, 500)
+//     })
+// }
 
 
-async function doChores(){
+// async function doChores(){
 
-    try{
-        const walkDogResult = await walkDog();
-        console.log(walkDogResult);
+//     try{
+//         const walkDogResult = await walkDog();
+//         console.log(walkDogResult);
 
-        const cleanKitchenResult = await cleanKitchen();
-        console.log(cleanKitchenResult);
+//         const cleanKitchenResult = await cleanKitchen();
+//         console.log(cleanKitchenResult);
 
-        const takeOutTrashResult = await takeOutTrash();
-        console.log(takeOutTrashResult);
+//         const takeOutTrashResult = await takeOutTrash();
+//         console.log(takeOutTrashResult);
 
-        console.log("You finished all the chores!");
-    }
-    catch(error){
-        console.error(error);
-    }
+//         console.log("You finished all the chores!");
+//     }
+//     catch(error){
+//         console.error(error);
+//     }
     
-}
+// }
 
-doChores()
+// doChores()
+
+// JSON = (JavaScript Object Notation) data-interchange format
+//        Used for exchanging data between a server and a web application
+//        JSON files {key:value} or [value1, value2, value3]
+
+//        JSON.stringify() = converts a JS object to a JSON string.
+//        JSON.parse() = converts a JSON string to a JS object.
+
