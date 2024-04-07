@@ -1648,3 +1648,8 @@ console.log(date);
 
 
 //3.
+const h4Elements = document.getElementsByTagName("h4");
+
+for(let h4Element of h4Elements){
+    h4Element.style.backgroundColor = "yellow";
+}
