@@ -1864,3 +1864,9 @@ const myBox = document.getElementById("myBox");
 //            Can be created by using querySelectorAll()
 //            Similar to an array, but no (map, filter, reduce)
 //            Nodelist won't update to automatically reflect changes
+
+let buttons = document.querySelectorAll(".myButtons");
+
+console.log(buttons);
+
+// ADD HTML/CSS PROPERTIES
