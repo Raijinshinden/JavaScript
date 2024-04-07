@@ -1648,13 +1648,36 @@ console.log(date);
 
 
 //3.
-const h4Elements = document.getElementsByTagName("h4");
-const liElements = document.getElementsByTagName("li");
+// const h4Elements = document.getElementsByTagName("h4");
+// const liElements = document.getElementsByTagName("li");
 
-for(let liElement of liElements){
-    liElement.style.backgroundColor = "lightgreen";
-}
+//Typecast
+// Array.from(h4Elements).forEach(h4Element => {
+//     h4Element.style.backgroundColor = "yellow";
+// })
 
-for(let h4Element of h4Elements){
-    h4Element.style.backgroundColor = "yellow";
-}
+// Array.from(liElements).forEach(liElement => {
+//     liElement.style.backgroundColor = "lightgreen";
+// })
+
+// for(let liElement of liElements){
+//     liElement.style.backgroundColor = "lightgreen";
+// }
+
+// for(let h4Element of h4Elements){
+//     h4Element.style.backgroundColor = "yellow";
+// }
+
+//4. Only affects the first element that matches it.
+
+// const element = document.querySelector(".fruits");
+
+// element.style.backgroundColor = "yellow";
+
+//5. Nodelist has built in methods, however are static
+
+const foods = document.querySelectorAll("li");
+
+foods.forEach(food => {
+    food.style.backgroundColor = "yellow";
+});
