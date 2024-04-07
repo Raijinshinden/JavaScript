@@ -1676,8 +1676,60 @@ console.log(date);
 
 //5. Nodelist has built in methods, however are static
 
-const foods = document.querySelectorAll("li");
+// const foods = document.querySelectorAll("li");
 
-foods.forEach(food => {
-    food.style.backgroundColor = "yellow";
-});
+// foods.forEach(food => {
+//     food.style.backgroundColor = "yellow";
+// });
+
+// DOM Navigation = The process of navigating throught the structure
+//                  of an HTML document using JavaScript.
+
+//.firstElementChild
+//.lastElementChild
+//.nextElementSibling
+//.previousElementSibling
+//.parentElement
+//.children
+
+
+//.firstElementChild
+
+// const element = document.getElementById("fruits");
+// const firstChild = element.firstElementChild;
+// firstChild.style.backgroundColor = "yellow";
+
+
+//.lastElementChild
+
+// const element = document.getElementById("fruits");
+// const lastChild = element.lastElementChild;
+//  lastChild.style.backgroundColor = "yellow";
+
+
+//.nextElementSibling
+
+// const element = document.getElementById("apple");
+// const nextSibling = element.nextElementSibling;
+// nextSibling.style.backgroundColor = "yellow";
+
+
+//.previousElementSibling
+
+// const element = document.getElementById("orange");
+// const prevSibling = element.previousElementSibling;
+// prevSibling.style.backgroundColor = "yellow";
+
+//.parentElement
+
+// const element = document.getElementById("apple");
+// const parent = element.parentElement;
+// parent.style.backgroundColor = "yellow";
+
+
+//.children
+
+// const element = document.getElementById("fruits");
+// const children = element.children;
+
+// children[1].style.backgroundColor = "yellow";
