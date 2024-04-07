@@ -1865,7 +1865,7 @@ const myBox = document.getElementById("myBox");
 //            Similar to an array, but no (map, filter, reduce)
 //            Nodelist won't update to automatically reflect changes
 
-let buttons = document.querySelectorAll(".myButtons");
+// let buttons = document.querySelectorAll(".myButtons");
 
 // ADD HTML/CSS PROPERTIES
 
@@ -1909,10 +1909,24 @@ let buttons = document.querySelectorAll(".myButtons");
 
 // REMOVE AN ELEMENT
 
-buttons.forEach(button => {
-    button.addEventListener("click", event => {
-        event.target.remove();
-        buttons = document.querySelectorAll(".myButtons");
-        console.log(buttons);
-    })
-})
+// buttons.forEach(button => {
+//     button.addEventListener("click", event => {
+//         event.target.remove();
+//         buttons = document.querySelectorAll(".myButtons");
+//         console.log(buttons);
+//     })
+// });
+
+
+// classList = Element property in JavaScript used to interact
+//             with an element's list of classes (CSS classes)
+//             Allows you to make reusable classes for many elements
+//             across your webpage.
+
+// add()
+// remove()
+// toggle(remove if present, Add if not)
+// replace(oldClass, newClass)
+// contains()
+
+
