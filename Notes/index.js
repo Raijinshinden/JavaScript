@@ -1733,3 +1733,41 @@ console.log(date);
 // const children = element.children;
 
 // children[1].style.backgroundColor = "yellow";
+
+
+// Add and change HTML
+
+// Ex1
+
+// Step 1. Create the element
+// const newH1 = document.createElement("h1");
+
+// // Step 2. Add Attributes/Properties
+// newH1.textContent = "I like pizza!";
+// newH1.id = "myH1";
+// newH1.style.color = "tomato";
+// newH1.style.textAlign = "center";
+
+// // Step 3. Append Element to DOM
+// //document.getElementById("box1").append(newH1);
+// //document.body.append(newH1)
+// // document.getElementById("box1").prepend(newH1);
+
+// const box2 = document.getElementById("box2");
+// document.body.insertBefore(newH1, box2);
+
+// // Remove HTML Element
+// document.body.removeChild(newH1);
+
+// event listener = listen for specific events to create interactive web pages
+//                  events: click, mouseover, mouseout
+//                  .addEventListener(event, callback)
+
+const myBox = document.getElementById("myBox");
+
+function changeColor(event){
+
+    
+}
+
+myBox.addEventListener("click", )
