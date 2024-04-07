@@ -1613,3 +1613,4 @@ console.log(date);
 // catch { } = Catch and handle any thrown Errors from try { }
 // finally { } = (optional) Always executes. Used mostly for clean up
 //               ex. close files, close connections, release resources
+
