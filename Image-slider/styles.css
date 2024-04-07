@@ -9,3 +9,18 @@
     width: 100%;
     display: none;
 }
+
+img.displaySlide{
+    display: block;
+}
+
+.slider button{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    font-size: 25px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
