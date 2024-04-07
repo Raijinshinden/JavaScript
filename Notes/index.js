@@ -1764,18 +1764,19 @@ console.log(date);
 //                  .addEventListener(event, callback, anonymous function, arrow function)
 
 const myBox = document.getElementById("myBox");
+const myButton = document.getElementById("myButton");
 
-myBox.addEventListener("click", event => {
+myButton.addEventListener("click", event => {
     event.target.style.backgroundColor = "tomato";
     event.target.textContent = "Ouch! 😣😣";
 })
 
-myBox.addEventListener("mouseover", event => {
+myButton.addEventListener("mouseover", event => {
     event.target.style.backgroundColor = "yellow";
     event.target.textContent = "Don't do it! 😮";
 })
 
-myBox.addEventListener("mouseout", event => {
+myButton.addEventListener("mouseout", event => {
     event.target.style.backgroundColor = "lightgreen";
     event.target.textContent = "Click Me 😁";
 })

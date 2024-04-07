@@ -9,3 +9,8 @@
     text-align: center;
     cursor: pointer;
 }
+
+#myButton{
+    font-size: 3rem;
+    cursor: pointer;
+}
