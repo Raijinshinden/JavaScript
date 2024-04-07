@@ -1977,43 +1977,56 @@ const myButton = document.getElementById("myButton");
 //                 Old pattern to handle asynchronous functions.
 //                 Use Promises + async/await to avoid Callback Hell
 
-function task1(callback){
+// function task1(callback){
 
-    setTimeout(() => {
-        console.log("Task 1 complete");
-        callback()
-    }, 2000);
+//     setTimeout(() => {
+//         console.log("Task 1 complete");
+//         callback()
+//     }, 2000);
     
-}
+// }
 
-function task2(callback){
-    setTimeout(() => {
-        console.log("Task 2 complete");
-        callback()
-    }, 1000);
-}
+// function task2(callback){
+//     setTimeout(() => {
+//         console.log("Task 2 complete");
+//         callback()
+//     }, 1000);
+// }
 
-function task3(callback){
-    setTimeout(() => {
-        console.log("Task 3 complete");
-        callback()
-    }, 3000);
-}
+// function task3(callback){
+//     setTimeout(() => {
+//         console.log("Task 3 complete");
+//         callback()
+//     }, 3000);
+// }
 
-function task4(callback){
-    setTimeout(() => {
-        console.log("Task 4 complete");
-        callback();
-    }, 1500);
-}
+// function task4(callback){
+//     setTimeout(() => {
+//         console.log("Task 4 complete");
+//         callback();
+//     }, 1500);
+// }
 
-task1(() => {
-    task2(() => {
-        task3(() => {
-            task4(() => {
-                console.log("All tasks complete");
-            })
-        })
-    })
-})
+// task1(() => {
+//     task2(() => {
+//         task3(() => {
+//             task4(() => {
+//                 console.log("All tasks complete");
+//             })
+//         })
+//     })
+// })
+
+
+// Promise = An Object that manages asynchronous operations.
+//           Wrap a Promise Object around {asynchronous code}
+//           "I promise to return a value"
+//           PENDING -> RESOLVED or REJECTED
+//           new Promise((resolve, reject) => {asynchronous code})
+
+// DO THESE CHORES IN ORDER
+
+//1. WALK THE DOG
+//2. CLEAN THE KITCHEN
+//3. TAKE OUT THE TRASH
 
