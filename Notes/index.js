@@ -1759,6 +1759,8 @@ console.log(date);
 // // Remove HTML Element
 // document.body.removeChild(newH1);
 
+
+
 // event listener = listen for specific events to create interactive web pages
 //                  events: click, mouseover, mouseout
 //                  .addEventListener(event, callback, anonymous function, arrow function)
@@ -1780,3 +1782,4 @@ console.log(date);
 //     myBox.style.backgroundColor = "lightgreen";
 //     myBox.textContent = "Click Me 😁";
 // })
+
