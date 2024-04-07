@@ -2059,7 +2059,7 @@ function cleanKitchen(){
                 resolve("You clean the kitchen.🧹")
             }
             else{
-                reject("You didn't clean the kitchen.")
+                reject("You didn't clean the kitchen!")
             }
 
             
@@ -2072,9 +2072,16 @@ function takeOutTrash(){
     return new Promise((resolve, reject) => {
         setTimeout(() => {
 
-            const 
+            const trashTakenOut = true;
 
-            resolve("You take out the trash.🗑️")
+            if(trashTakenOut){
+                resolve("You take out the trash.🗑️")
+            }
+            else{
+                reject("You didn't take out the trash!")
+            }
+
+            
         }, 500)
     })
 }
