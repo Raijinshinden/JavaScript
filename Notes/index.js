@@ -1943,14 +1943,29 @@ const myButton = document.getElementById("myButton");
 //     event.target.classList.toggle("hover");
 // })
 
-myButton.classList.add("enabled");
+// const myH1 = document.getElementById("myH1");
+// myH1.classList.add("enabled");
 
-myButton.addEventListener("click", event => {
+// myButton.classList.add("enabled");
 
-    if(event.target.classList.contains("disabled")){
-        event.target.textContent += "🤬";
-    }
-    else{
-        event.target.classList.replace("enabled", "disabled");
-    }
-});
+
+// myH1.addEventListener("click", event => {
+
+//     if(event.target.classList.contains("disabled")){
+//         event.target.textContent += "🤬";
+//     }
+//     else{
+//         event.target.classList.replace("enabled", "disabled");
+//     }
+// });
+
+
+// myButton.addEventListener("click", event => {
+
+//     if(event.target.classList.contains("disabled")){
+//         event.target.textContent += "🤬";
+//     }
+//     else{
+//         event.target.classList.replace("enabled", "disabled");
+//     }
+// });
