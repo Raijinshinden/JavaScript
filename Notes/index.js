@@ -1649,6 +1649,11 @@ console.log(date);
 
 //3.
 const h4Elements = document.getElementsByTagName("h4");
+const liElements = document.getElementsByTagName("li");
+
+for(let liElement of liElements){
+    liElement.style.backgroundColor = "lightgreen";
+}
 
 for(let h4Element of h4Elements){
     h4Element.style.backgroundColor = "yellow";
