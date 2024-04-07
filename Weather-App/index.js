@@ -43,6 +43,24 @@ function displayWeatherInfo(data){
     const {name: city, 
            main: {temp, humdity}, 
            weather: [{description, id}]} = data;
+
+    card.textContent = "";
+    card.style.display = "flex";
+
+    const cityDisplay = document.createElement("h1");
+    const tempDisplay = document.createElement("p");
+    const humidityDisplay = document.createElement("p");
+    const descDisplay = document.createElement("p");
+    const weatherEmoji = document.createElement("p");
+
+    cityDisplay.textContent = city;
+    tempDisplay.textContent = `${(temp - 273.15).toFixed(1)}°C`;
+
+    cityDisplay.classList.add("cityDisplay");
+    tempDisplay.classList.add("tempDisplay");
+
+    card.appendChild(cityDisplay);
+    card.appendChild(tempDisplay);
 }
 
 function getWeatherEmoji(weatherId){
