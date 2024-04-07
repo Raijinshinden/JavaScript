@@ -1933,4 +1933,4 @@ const myBox = document.getElementById("myBox");
 const myButton = document.getElementById("myButton");
 
 myButton.classList.add("enabled");
-myButton.classList
+myButton.classList.remove()
