@@ -2157,3 +2157,19 @@ function takeOutTrash(){
         }, 500)
     })
 }
+
+
+async function doChores(){
+
+
+    const walkDogResult = await walkDog();
+    console.log(walkDogResult);
+
+    const cleanKitchenResult = await cleanKitchen();
+    console.log(cleanKitchenResult);
+
+    const takeOutTrashResult = await takeOutTrash();
+    console.log(takeOutTrashResult);
+}
+
+doChores()
