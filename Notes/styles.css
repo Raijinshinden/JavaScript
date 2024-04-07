@@ -4,9 +4,9 @@
     border: none;
     border-radius: 5px;
     padding: 10px 15px;
-    color: white;
 }
 
 .enabled{
     background-color: hsl(205, 100%, 60%);
+    color: white;
 }
