@@ -2110,7 +2110,7 @@ function walkDog(){
             const dogWalked = true;
 
             if(dogWalked){
-                resolve("You walk the dog. 🐕")
+                resolve("You walked the dog. 🐕")
             }
             else{
                 reject("You didn't walk the dog!")
@@ -2128,7 +2128,7 @@ function cleanKitchen(){
             const kitchenCleaned = true;
 
             if(kitchenCleaned){
-                resolve("You clean the kitchen.🧹")
+                resolve("You cleaned the kitchen.🧹")
             }
             else{
                 reject("You didn't clean the kitchen!")
@@ -2147,7 +2147,7 @@ function takeOutTrash(){
             const trashTakenOut = true;
 
             if(trashTakenOut){
-                resolve("You take out the trash.🗑️")
+                resolve("You took out the trash.🗑️")
             }
             else{
                 reject("You didn't take out the trash!")
@@ -2161,17 +2161,22 @@ function takeOutTrash(){
 
 async function doChores(){
 
+    try{
+        const walkDogResult = await walkDog();
+        console.log(walkDogResult);
 
-    const walkDogResult = await walkDog();
-    console.log(walkDogResult);
+        const cleanKitchenResult = await cleanKitchen();
+        console.log(cleanKitchenResult);
 
-    const cleanKitchenResult = await cleanKitchen();
-    console.log(cleanKitchenResult);
+        const takeOutTrashResult = await takeOutTrash();
+        console.log(takeOutTrashResult);
 
-    const takeOutTrashResult = await takeOutTrash();
-    console.log(takeOutTrashResult);
-
-    console.log("You finished all the chores!");
+        console.log("You finished all the chores!");
+    }
+    catch(error){
+        console.error(error);
+    }
+    
 }
 
 doChores()
