@@ -1841,3 +1841,26 @@ const myBox = document.getElementById("myBox");
 
 
 // Show and hide an HTML element using JavaScript
+
+// const myButton = document.getElementById("myButton");
+// const myImg = document.getElementById("myImg");
+
+// myButton.addEventListener("click", event => {
+
+//     if(myImg.style.visibility === "hidden"){
+//         myImg.style.visibility = "visible";
+//         myButton.textContent = "Hide";
+//     }
+//     else{
+//         myImg.style.visibility = "hidden";
+//         myButton.textContent = "Show";
+//     }
+
+    
+// })
+
+
+// Nodelist = Static collection of HTML elements by (id, class, element)
+//            Can be created by using querySelectorAll()
+//            Similar to an array, but no (map, filter, reduce)
+//            Nodelist won't update to automatically reflect changes
