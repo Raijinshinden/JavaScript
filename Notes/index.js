@@ -1633,5 +1633,18 @@ console.log(date);
 //4. document.querySelector()        // Element or Null
 //5. document.querySelectorAll()     // Nodelist
 
-const myHeading = document.getElementById("my-heading");
-myHeading.style.backgroundColor = 
+//1.
+// const myHeading = document.getElementById("my-Heading");
+// myHeading.style.backgroundColor = "yellow";
+// myHeading.style.textAlign = "center";
+
+
+//2.
+//const fruits = document.getElementsByClassName("fruits");
+
+// Array.from(fruits).forEach(fruit => {
+//     fruit.style.backgroundColor = "yellow";
+// });
+
+
+//3.
