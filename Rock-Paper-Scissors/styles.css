@@ -38,3 +38,11 @@ h1{
     font-size: 5rem;
     margin: 30px 0px;
 }
+
+.greenText{
+    color: hsl(120, 89%, 36%)
+}
+
+.redText{
+    color: hsl(0, 96%, 45%) 
+}
